@@ -32,6 +32,7 @@ To know how to contribute this repository, please refer to this [document](CONTR
 ## Contributor
 
 * [David Lu](https://github.com/yungshenglu)
+* [Li Yang](https://github.com/chenyang14)
 
 ---
 ## License
