@@ -1,15 +1,20 @@
 # TensorFlow Practice
 
+![](res/tensorflow.png)
+
 This repository is used to practice some basic operations in **TensroFlow** and the original repository is [here](https://github.com/tensorflow/tensorflow).
 
-> The following operations are used in **Ubuntu Linux 16.04 LTS**.
+> **NOTICE:** This repository is based on **Ubuntu Linux 16.04 LTS**
 
 ---
 ## Contents
 
 * [Tutorials](src/tutorials)
+	* [Install](src/tutorials)
+	* [BasicClassificaton](src/tutorials/2-BasicClassificaton)
+	* [Movan's Tutorial](src/tutorials/3-Movan) (Credits to [Morvan](https://github.com/MorvanZhou))
 * [Course](src/course)
-* [Practice](src/practice)
+    * [Introduction to Machine Learning 2017, NCTU](src/course/nctu_ml2017) (Credits to [Li Yang](https://github.com/chenyang14))
 
 ---
 ## References
