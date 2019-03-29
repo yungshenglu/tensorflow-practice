@@ -34,6 +34,8 @@ def main():
 	    sess.run(train)
 	    if step % 20 == 0:
 		    print(step, sess.run(Weights), sess.run(biases))
+	
+	sess.close()
 
 
 ''' ENTRY POINT '''
