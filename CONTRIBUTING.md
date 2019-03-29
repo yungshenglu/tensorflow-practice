@@ -8,9 +8,9 @@ I'd love to accept your patches and contributions to this project. There are jus
 1. Fork this repository and clone the repository you forked.
     ```bash
     # Clone your fork of the repo into the current directory
-    git clone https://github.com/<YOUR_GITHUB_ID>/tensorflow-practice
+    $ git clone https://github.com/<YOUR_USERNAME>/tensorflow-practice
     # Navigate to the newly cloned directory
-    cd <REPO_NAME>
+    $ cd tensorflow-practice
     ```
 2. Create new branch named `develop` and switch to this branch
     ```bash
@@ -33,11 +33,6 @@ I'd love to accept your patches and contributions to this project. There are jus
     # Merge our latest version to your branch
     $ git rebase upstream/master
     ```
-
----
-## Contributor
-
-* [David Lu](https://github.com/yungshenglu)
 
 ---
 ## License
