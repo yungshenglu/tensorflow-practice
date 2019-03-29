@@ -13,7 +13,7 @@ This practice is refer to [莫烦PYTHON - TensorFlow: Session 会话控制](http
     # Running TensorFlow session using with
     $ python3 main.py 2
     ```
-2. If succeed, you may get the following result (the result is not unique)
+2. If succeed, you may will the following result
     ```bash
     # Running TensorFlow session without using with
     [INFO] Runing TensorFlow session without using with

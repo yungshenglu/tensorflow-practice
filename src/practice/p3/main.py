@@ -4,7 +4,7 @@ import tensorflow as tf
 
 
 def main():
-	''' Create data '''
+	''' Create TensorFlow model '''
 	# Define variables
 	state = tf.Variable(0, name='counter')
 	one = tf.constant(1)

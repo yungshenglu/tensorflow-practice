@@ -10,7 +10,7 @@ This practice is refer to [莫烦PYTHON - TensorFlow: Variable 变量](https://m
     # Make sure your current directory is in this folder
     $ python3 main.py
     ```
-2. If succeed, you may get the following result (the result is not unique)
+2. If succeed, you will get the following result
     ```bash
     1
     2
