@@ -11,7 +11,7 @@ This repository is used to practice some basic operations in **TensroFlow** and 
 
 * [Tutorials](src/tutorials)
 	* [Install](src/tutorials)
-	* [BasicClassificaton](src/tutorials/2-BasicClassificaton)
+	* [Basic Classificaton](src/tutorials/2-BasicClassificaton)
 	* [Movan's Tutorial](src/tutorials/3-Movan) (Credits to [Morvan](https://github.com/MorvanZhou))
 * [Course](src/course)
     * [Introduction to Machine Learning 2017, NCTU](src/course/nctu_ml2017) (Credits to [Li Yang](https://github.com/chenyang14))
