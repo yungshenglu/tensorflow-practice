@@ -19,7 +19,7 @@ This repository is used to practice some basic operations in **TensroFlow** and 
 * [GitHub - tensorFlow/tensorflow](https://github.com/tensorflow/tensorflow)
 * [GitHub - tensorflow/models](https://github.com/tensorflow/models)
 * [GitHub - tendorflow/datasets](https://github.com/tensorflow/datasets)
-* [莫烦PYTHON](https://morvanzhou.github.io/)
+* [莫烦PYTHON - TensorFlow](https://morvanzhou.github.io/tutorials/machine-learning/tensorflow)
 
 ---
 ## Contributor
@@ -28,6 +28,7 @@ This repository is used to practice some basic operations in **TensroFlow** and 
 
 * [David Lu](https://github.com/yungshenglu)
 * [Li Yang](https://github.com/chenyang14)
+* [Morvan](https://github.com/MorvanZhou)
 
 ---
 ## License
