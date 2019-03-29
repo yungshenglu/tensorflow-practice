@@ -45,6 +45,8 @@ def main():
     ''' Start training '''
     with tf.Session() as sess:
         sess.run(init)
+        
+        # Print the Weights and biases for every 50 steps
         for step in range(1000):
             sess.run(train, feed_dict={
                 xs: x,
