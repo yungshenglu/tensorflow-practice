@@ -1,6 +1,6 @@
 # Practice 6 - Visualize
 
-This practice is refer to [莫烦PYTHON - TensorFlow: 例子3 结果可视化](https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/3-3-visualize-result/). Credits to [Morvan](https://github.com/MorvanZhou).
+This practice is refer to [莫烦PYTHON - TensorFlow: Tensorboard 可视化好帮手 1](https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/4-1-tensorboard1/). Credits to [Morvan](https://github.com/MorvanZhou).
 
 ---
 ## Execution
@@ -30,9 +30,3 @@ This practice is refer to [莫烦PYTHON - TensorFlow: 例子3 结果可视化](h
 * [TensorFlow Official - Tutorial](https://www.tensorflow.org/tutorials/)
 * [GitHub - tensorFlow/tensorflow](https://github.com/tensorflow/tensorflow)
 * [莫烦PYTHON - TensorFlow](https://morvanzhou.github.io/tutorials/machine-learning/tensorflow)
-
----
-## Contributor
-
-* [Morvan](https://github.com/MorvanZhou)
-* [David Lu](https://github.com/yungshenglu)

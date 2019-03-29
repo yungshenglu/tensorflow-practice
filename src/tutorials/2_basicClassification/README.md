@@ -5,9 +5,6 @@ We are going to train a neural network model to classify images of clothing, lik
 > This turoial is refer to "[Train your first neural network: basic classification](https://www.tensorflow.org/tutorials/keras/basic_classification)".
 
 ---
-
-
----
 ## References
 
 * [TensorFlow Offical](https://www.tensorflow.org/)
@@ -15,13 +12,3 @@ We are going to train a neural network model to classify images of clothing, lik
 * [GitHub - tensorFlow/tensorflow](https://github.com/tensorflow/tensorflow)
 * [GitHub - tensorflow/models](https://github.com/tensorflow/models)
 * [GitHub - tendorflow/datasets](https://github.com/tensorflow/datasets)
-
----
-## Contributor
-
-* [David Lu](https://github.com/yungshenglu)
-
----
-## License
-
-Apache License 2.0

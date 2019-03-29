@@ -11,7 +11,7 @@ We are going to install Tensorflow in this tutorial.
 ---
 ## 1.1 Installation 
 
-* **NOTICE:** 
+* **NOTICE:**
     * The following instructions are for **Python 3 (Python 3.4, 3.5, 3.6)**.
     * For *Python 2.7*, you can follow [here](https://www.tensorflow.org/install/pip?lang=python2).
 
@@ -74,13 +74,3 @@ We are going to install Tensorflow in this tutorial.
 * [GitHub - tensorFlow/tensorflow](https://github.com/tensorflow/tensorflow)
 * [GitHub - tensorflow/models](https://github.com/tensorflow/models)
 * [GitHub - tendorflow/datasets](https://github.com/tensorflow/datasets)
-
----
-## Contributor
-
-* [David Lu](https://github.com/yungshenglu)
-
----
-## License
-
-Apache License 2.0

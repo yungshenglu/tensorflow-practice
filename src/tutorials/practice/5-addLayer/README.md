@@ -40,9 +40,3 @@ This practice is refer to [莫烦PYTHON - TensorFlow: 例子3 添加层 def add_
 * [TensorFlow Official - Tutorial](https://www.tensorflow.org/tutorials/)
 * [GitHub - tensorFlow/tensorflow](https://github.com/tensorflow/tensorflow)
 * [莫烦PYTHON - TensorFlow](https://morvanzhou.github.io/tutorials/machine-learning/tensorflow)
-
----
-## Contributor
-
-* [Morvan](https://github.com/MorvanZhou)
-* [David Lu](https://github.com/yungshenglu)

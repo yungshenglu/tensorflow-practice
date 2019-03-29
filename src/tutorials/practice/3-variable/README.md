@@ -23,9 +23,3 @@ This practice is refer to [莫烦PYTHON - TensorFlow: Variable 变量](https://m
 * [TensorFlow Official - Tutorial](https://www.tensorflow.org/tutorials/)
 * [GitHub - tensorFlow/tensorflow](https://github.com/tensorflow/tensorflow)
 * [莫烦PYTHON - TensorFlow](https://morvanzhou.github.io/tutorials/machine-learning/tensorflow)
-
----
-## Contributor
-
-* [Morvan](https://github.com/MorvanZhou)
-* [David Lu](https://github.com/yungshenglu)
