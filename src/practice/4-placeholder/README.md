@@ -1,6 +1,6 @@
-# Practice 3
+# Practice 4 - TensorFlow Placeholder
 
-This practice is refer to [莫烦PYTHON - TensorFlow: Variable 变量](https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/2-4-variable/). Credits to [Morvan](https://github.com/MorvanZhou).
+This practice is refer to [莫烦PYTHON - TensorFlow: Placeholder 传入值](https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/2-5-placeholde/). Credits to [Morvan](https://github.com/MorvanZhou).
 
 ---
 ## Execution
@@ -12,9 +12,7 @@ This practice is refer to [莫烦PYTHON - TensorFlow: Variable 变量](https://m
     ```
 2. If succeed, you will get the following result
     ```bash
-    1
-    2
-    3
+    [ 784.]
     ```
 
 ---

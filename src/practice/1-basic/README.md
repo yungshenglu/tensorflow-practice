@@ -1,4 +1,4 @@
-# Practice 1
+# Practice 1 - Getting Start
 
 This practice is refer to [莫烦PYTHON - TensorFlow: 例子2](https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/2-2-example2/). Credits to [Morvan](https://github.com/MorvanZhou).
 
