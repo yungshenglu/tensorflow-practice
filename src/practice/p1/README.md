@@ -1,6 +1,6 @@
 # Practice 1
 
-This practice is refer to [莫烦PYTHON - TensorFlow](https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/2-2-example2/). Credits to [Morvan](https://github.com/MorvanZhou).
+This practice is refer to [莫烦PYTHON - TensorFlow: 例子2](https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/2-2-example2/). Credits to [Morvan](https://github.com/MorvanZhou).
 
 ---
 ## Execution
@@ -30,7 +30,7 @@ This practice is refer to [莫烦PYTHON - TensorFlow](https://morvanzhou.github.
 
 * [TensorFlow Official - Tutorial](https://www.tensorflow.org/tutorials/)
 * [GitHub - tensorFlow/tensorflow](https://github.com/tensorflow/tensorflow)
-* [莫烦PYTHON](https://morvanzhou.github.io/)
+* [莫烦PYTHON - TensorFlow](https://morvanzhou.github.io/tutorials/machine-learning/tensorflow)
 
 ---
 ## Contributor
