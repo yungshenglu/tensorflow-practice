@@ -5,19 +5,11 @@ This repository is used to practice some basic operations in **TensroFlow** and 
 > The following operations are used in **Ubuntu Linux 16.04 LTS**.
 
 ---
-## Prequisite
-
-> TODO: How to run `.ipynb` within Jupyter?
-
----
 ## Contents
 
 * [Tutorials](src/tutorials)
-
----
-## Contributing
-
-To know how to contribute this repository, please refer to this [document](CONTRIBUTING.md) first. Thanks for your cooperation.
+* [Course](src/course)
+* [Practice](src/practice)
 
 ---
 ## References
@@ -27,9 +19,12 @@ To know how to contribute this repository, please refer to this [document](CONTR
 * [GitHub - tensorFlow/tensorflow](https://github.com/tensorflow/tensorflow)
 * [GitHub - tensorflow/models](https://github.com/tensorflow/models)
 * [GitHub - tendorflow/datasets](https://github.com/tensorflow/datasets)
+* [莫烦PYTHON](https://morvanzhou.github.io/)
 
 ---
 ## Contributor
+
+> **NOTICE:** You can follow the contributing process [`CONTRIBUTING.md`](CONTRIBUTING.md) to join me. I am very welcome any issue!
 
 * [David Lu](https://github.com/yungshenglu)
 * [Li Yang](https://github.com/chenyang14)
