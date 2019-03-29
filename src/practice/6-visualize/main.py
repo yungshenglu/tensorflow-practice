@@ -51,6 +51,7 @@ def main():
         fig = plt.figure()
         ax = fig.add_subplot(1, 1, 1)
         ax.scatter(x, y)
+        plt.ion()
         plt.show()
 
         # Print the Weights and biases for every 50 steps
@@ -60,10 +61,20 @@ def main():
                 ys: y
             })
             if step % 50 == 0:
-                print(step, sess.run(loss, feed_dict={
-                    xs: x,
-                    ys: y
-                }))
+                #print(step, sess.run(loss, feed_dict={
+                #    xs: x,
+                #    ys: y
+                #}))
+                # Remove the previous line and plot the value of prediction in curve line
+                try:
+                    ax.lines.remove(lines[0])
+                except Exception:
+                    pass
+                prediction_value = sess.run(prediction, feed_dict={
+                    xs: x
+                })
+                lines = ax.plot(x, prediction_value, 'r-', lw=3)
+                plt.pause(0.1)
 
 
 ''' ENTRY POINT '''
