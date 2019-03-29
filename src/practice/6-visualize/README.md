@@ -11,7 +11,7 @@ This practice is refer to [莫烦PYTHON - TensorFlow: 例子3 结果可视化](h
     $ python3 main.py
     ```
 2. If succeed, you will get the following result (the result is not unique)
-    ![](result.gif)
+    ![](res/result.gif)
 
 ---
 ## References

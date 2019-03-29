@@ -11,7 +11,7 @@ def addLayer(inputs, in_size, out_size, activation=None):
     biases = tf.Variable(tf.zeros([1, out_size]) + 0.1)
     
     # Define training function
-    y = tf.matmul(inputs, Weights) + biases
+    y = tf.add(tf.matmul(inputs, Weights), biases)
     
     # Activation function
     if activation is None:
