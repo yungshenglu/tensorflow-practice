@@ -26,6 +26,13 @@ This practice is refer to [莫烦PYTHON - TensorFlow](https://morvanzhou.github.
     ```
 
 ---
+## References
+
+* [TensorFlow Official - Tutorial](https://www.tensorflow.org/tutorials/)
+* [GitHub - tensorFlow/tensorflow](https://github.com/tensorflow/tensorflow)
+* [莫烦PYTHON](https://morvanzhou.github.io/)
+
+---
 ## Contributor
 
 * [Morvan](https://github.com/MorvanZhou)
