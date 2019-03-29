@@ -1,4 +1,4 @@
-# Practice 6 - Visualize
+# Practice 6 - Visualize in TensorFlow
 
 This practice is refer to [莫烦PYTHON - TensorFlow: 例子3 结果可视化](https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/3-3-visualize-result/). Credits to [Morvan](https://github.com/MorvanZhou).
 

@@ -1,4 +1,4 @@
-# Practice 6 - Visualize
+# Practice 7 - Using TensorBoard 1
 
 This practice is refer to [莫烦PYTHON - TensorFlow: Tensorboard 可视化好帮手 1](https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/4-1-tensorboard1/). Credits to [Morvan](https://github.com/MorvanZhou).
 

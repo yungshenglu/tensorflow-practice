@@ -1,4 +1,4 @@
-# Practice 5 - Add Layer
+# Practice 5 - Add Layer in TensorFlow
 
 This practice is refer to [莫烦PYTHON - TensorFlow: 例子3 添加层 def add_layer()](https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/3-1-add-layer/) and [莫烦PYTHON - TensorFlow: 例子3 建造神经网络](https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/3-2-create-NN/). Credits to [Morvan](https://github.com/MorvanZhou).
 
