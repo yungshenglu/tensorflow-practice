@@ -19,7 +19,7 @@ This practice is refer to [莫烦PYTHON - TensorFlow: Session 会话控制](http
     [INFO] Runing TensorFlow session without using with
     [[12]]
     # Running TensorFlow session using with
-    [INFO ]Runing TensorFlow session using with
+    [INFO] Runing TensorFlow session using with
     [[12]]
     ```
 
