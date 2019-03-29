@@ -1,5 +1,7 @@
 # Practice 1
 
+This practice is refer to [莫烦PYTHON - TensorFlow](https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/2-2-example2/). Credits to [Morvan](https://github.com/MorvanZhou).
+
 ---
 ## Execution
 
@@ -22,3 +24,9 @@
     180 [ 0.70000619] [ 0.49999639]
     200 [ 0.70000196] [ 0.49999887]
     ```
+
+---
+## Contributor
+
+* [Morvan](https://github.com/MorvanZhou)
+* [David Lu](https://github.com/yungshenglu)
