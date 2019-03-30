@@ -8,7 +8,8 @@ This practice is refer to the following resources credited to [Morvan](https://g
 
 For more detail about CNN, you can watch the following video on YouTube.
 * CNN (Convolutional Neural Network)
-    [![](http://img.youtube.com/vi/jajksuQW4mc/0.jpg)](https://www.youtube.com/watch?v=jajksuQW4mc)
+
+    [![CNN (Convolutional Neural Network)](http://img.youtube.com/vi/jajksuQW4mc/0.jpg)](https://www.youtube.com/watch?v=jajksuQW4mc)
 
 ---
 ## Execution
