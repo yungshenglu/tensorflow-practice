@@ -19,6 +19,7 @@ This directory is used for learning TensorFlow.
     9. [Classification with TensorFlow](3-Movan/9-Classification)
     10. [Solving Overfitting via Dropout](3-Movan/10-Dropout)
     11. [CNN in TensorFlow](3-Movan/11-CNN)
+    12. [TensorFlow Saver](3-Movan/12-Saver)
 
 (To be updated.)
 
