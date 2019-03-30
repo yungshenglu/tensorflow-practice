@@ -1,6 +1,6 @@
 # TensorFlow Tutorials
 
-This directory is used for practicing TensorFlow.
+This directory is used for learning TensorFlow.
 
 ---
 ## Contents
