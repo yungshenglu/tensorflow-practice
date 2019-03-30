@@ -30,7 +30,7 @@ This practice is refer to [莫烦PYTHON - TensorFlow: 什么是过拟合 (Overfi
     # The above link is just an example. Please use your link!
     ```
 4. Open the browser and navigate to the website show in your terminal (`http://0.0.0.0:6006`) (the result is not unique)
-    ![](res/before_dropout.png)
+    ![](../../../../res/img/movan/10-before_dropout.png)
 
 ### After Dropout
 
@@ -60,7 +60,7 @@ This practice is refer to [莫烦PYTHON - TensorFlow: 什么是过拟合 (Overfi
     # The above link is just an example. Please use your link!
     ```
 5. Open the browser and navigate to the website show in your terminal (`http://0.0.0.0:6006`) (the result is not unique)
-    ![](res/after_dropout.png)
+    ![](../../../../res/img/movan/10-after_dropout.png)
 
 ---
 ## References
