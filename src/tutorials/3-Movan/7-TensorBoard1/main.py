@@ -50,7 +50,9 @@ def main():
 
     ''' Start training '''
     with tf.Session() as sess:
+        # Write the summary into a file
         writer = tf.summary.FileWriter('./logs/', sess.graph)
+
         # Initialize all variables in TensorFlow
         sess.run(tf.global_variables_initializer())
 

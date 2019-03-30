@@ -14,7 +14,7 @@ This practice is refer to [莫烦PYTHON - TensorFlow: Tensorboard 可视化好�
     ```bash
     # Make sure your current directory is in this folder
     $ ls ./logs/
-    events.out.tfevents.1553873751.yungshenglu
+    events.out.tfevents.1553929511.yungshenglu
     # The above filename is for example and won't be same with yours!
     ```
 3. Run the log with TensorBoard

@@ -60,11 +60,12 @@ def main():
 
     ''' Start training '''
     with tf.Session() as sess:
+        # Initialize all variables in TensorFlow
         sess.run(tf.global_variables_initializer())
 
         # Train 1000 times
         for step in range(1000):
-            #
+            # Batch the MNIST datasets for every 100
             batch_xs, batch_ys = mnist.train.next_batch(100)
             sess.run(train, feed_dict={
                 xs: batch_xs,

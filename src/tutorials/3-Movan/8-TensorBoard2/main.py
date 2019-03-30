@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 def addLayer(inputs, in_size, out_size, name, activation=None):
     # Define Weights and biases and add the name for TensorBoard
-    layer_name = 'layer%s' % name
+    layer_name = 'Layer%s' % name
     with tf.name_scope(layer_name):
         with tf.name_scope('weights'):
             Weights = tf.Variable(tf.random_normal([in_size, out_size]), name='W')
@@ -25,7 +25,7 @@ def addLayer(inputs, in_size, out_size, name, activation=None):
             outputs = y
         else:
             outputs = activation(y)
-            tf.summary.histogram(layer_name + '/outputs', outputs)
+        tf.summary.histogram(layer_name + '/outputs', outputs)
         
         return outputs
 
@@ -55,17 +55,20 @@ def main():
 
     ''' Start training '''
     with tf.Session() as sess:
+        # Merge all summary and write into a file
         merged = tf.summary.merge_all()
         writer = tf.summary.FileWriter('./logs/', sess.graph)
+
         # Initialize all variables in TensorFlow
         sess.run(tf.global_variables_initializer())
 
-        # Train 1000 times and show summary every 50 times
+        # Train 1000 times
         for step in range(1000):
             sess.run(train, feed_dict={
                 xs: x,
                 ys: y
             })
+            # Write into summary for every 50 times
             if step % 50 == 0:
                 result = sess.run(merged, feed_dict={
                     xs: x,
