@@ -1,7 +1,7 @@
-# Practice 11 - CNN in TensroFlow
+# Practice 10 - CNN in TensroFlow
 
 This practice is refer to the following resources credited to [Morvan](https://github.com/MorvanZhou).
-* [莫烦PYTHON - TensorFlow: 什么是卷积神经网络 CNN](https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/5-03-A-CNN/)
+* [莫烦PYTHON - TensorFlow: 什么是卷积神经网络 CNN (Convolutional Neural Network)](https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/5-03-A-CNN/)
 * [莫烦PYTHON - TensorFlow: CNN 卷积神经网络 1](https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/5-03-CNN1/)
 * [莫烦PYTHON - TensorFlow: CNN 卷积神经网络 2](https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/5-04-CNN2/)
 * [莫烦PYTHON - TensorFlow: CNN 卷积神经网络 3](https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/5-05-CNN3/)

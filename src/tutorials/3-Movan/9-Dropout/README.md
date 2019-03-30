@@ -1,4 +1,4 @@
-# Practice 10 - Solving Overfitting via Dropout
+# Practice 9 - Solving Overfitting via Dropout
 
 This practice is refer to the following resources credited to [Morvan](https://github.com/MorvanZhou).
 * [莫烦PYTHON - TensorFlow: 什么是过拟合 (Overfitting)](https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/5-02-A-overfitting/)

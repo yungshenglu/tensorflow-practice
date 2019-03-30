@@ -14,12 +14,12 @@ This directory is used for learning TensorFlow.
     4. [TensorFlow Placeholder](3-Movan/4-Placeholder)
     5. [Add Layer in TensorFlow](3-Movan/5-AddLayer)
     6. [Visualize in TensorFlow](3-Movan/6-Visualize)
-    7. [Using TensorBoard 1](3-Movan/7-TensorBoard1)
-    8. [Using TensorBoard 2](3-Movan/8-TensorBoard2)
-    9. [Classification with TensorFlow](3-Movan/9-Classification)
-    10. [Solving Overfitting via Dropout](3-Movan/10-Dropout)
-    11. [CNN in TensorFlow](3-Movan/11-CNN)
-    12. [TensorFlow Saver](3-Movan/12-Saver)
+    7. [Using TensorBoard](3-Movan/7-TensorBoard)
+    8. [Classification with TensorFlow](3-Movan/8-Classification)
+    9.  [Solving Overfitting via Dropout](3-Movan/9-Dropout)
+    10. [CNN in TensorFlow](3-Movan/10-CNN)
+    11. [TensorFlow Saver](3-Movan/11-Saver)
+    12. [RNN in TensorFlow](3-Movan/12-RNN)
 
 (To be updated.)
 

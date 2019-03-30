@@ -1,4 +1,4 @@
-# Practice 12 - TensroFlow Saver
+# Practice 11 - TensroFlow Saver
 
 This practice is refer to the following resources credited to [Morvan](https://github.com/MorvanZhou).
 * [莫烦PYTHON - TensorFlow: Saver 保存读取](https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/5-06-save/)

@@ -1,4 +1,4 @@
-# Practice 9 - Classification with TensorFLow
+# Practice 8 - Classification with TensorFLow
 
 This practice is refer to the following resources credited to [Morvan](https://github.com/MorvanZhou).
 * [莫烦PYTHON - TensorFlow: Classification 分类学习](https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/5-01-classifier/)
