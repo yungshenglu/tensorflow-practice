@@ -11,6 +11,7 @@ from tensorflow.examples.tutorials.mnist import input_data
 mnist = input_data.read_data_sets('MNIST_data', one_hot=True)
 
 
+''' Compute the accuracy '''
 def computeAccruracy(sess, prediction, keep_prob, xs, ys, v_xs, v_ys):
     # Prediction
     y_pre = sess.run(prediction, feed_dict={
@@ -29,6 +30,7 @@ def computeAccruracy(sess, prediction, keep_prob, xs, ys, v_xs, v_ys):
         ys: v_ys,
         keep_prob: 1
     })
+
 
 ''' Define the variable of weight '''
 def weightVar(shape):
@@ -55,6 +57,11 @@ def maxPool2x2(x):
 
 
 def main():
+    ''' Define hyperparameters '''
+    learning_rate = 0.0001
+    training_step = 1000
+    dropout_rate = 0.5
+
     ''' Create TensorFlow model '''
     # Define the placeholder for inputs and keep_prob (for dropout)
     xs = tf.placeholder(tf.float32, [None, 784]) / 255
@@ -90,10 +97,10 @@ def main():
 
     # Define the loss function (cross entropy) and the optimizer
     with tf.name_scope('loss'):
-        cross_entropy = tf.reduce_mean(-tf.reduce_sum(ys * tf.log(prediction), reduction_indices=[1]))
-        tf.summary.scalar('loss', cross_entropy)
+        loss = tf.reduce_mean(-tf.reduce_sum(ys * tf.log(prediction), reduction_indices=[1]))
+        tf.summary.scalar('loss', loss)
     with tf.name_scope('train'):
-        train = tf.train.AdamOptimizer(1e-4).minimize(cross_entropy)
+        train = tf.train.AdamOptimizer(learning_rate).minimize(loss)
     
     ''' Start training '''
     with tf.Session() as sess:
@@ -101,13 +108,13 @@ def main():
         sess.run(tf.global_variables_initializer())
 
         # Train 1000 times
-        for step in range(1000):
+        for step in range(training_step):
             # Batch the MNIST datasets for every 100
             batch_xs, batch_ys = mnist.train.next_batch(100)
             sess.run(train, feed_dict={
                 xs: batch_xs,
                 ys: batch_ys,
-                keep_prob: 0.5
+                keep_prob: 1 - dropout_rate
             })
 
             # Print the accuracy for every 50 times

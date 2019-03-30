@@ -10,7 +10,7 @@ tf.logging.set_verbosity(tf.logging.ERROR)
 
 def main():
     # Notes: remember to define the same dtype and shape when restore
-    weights = tf.Variable([[1, 2, 3], [3, 4, 5]], dtype=tf.float32, name='weights')
+    Weights = tf.Variable([[1, 2, 3], [3, 4, 5]], dtype=tf.float32, name='Weights')
     biases = tf.Variable([[1, 2, 3]], dtype=tf.float32, name='biases')
 
     # Create a saver for saving

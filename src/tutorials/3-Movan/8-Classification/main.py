@@ -11,6 +11,7 @@ from tensorflow.examples.tutorials.mnist import input_data
 mnist = input_data.read_data_sets('MNIST_data', one_hot=True)
 
 
+''' Add layer '''
 def addLayer(inputs, in_size, out_size, activation=None):
     # Define Weights and biases
     Weights = tf.Variable(tf.random_normal([in_size, out_size]))
@@ -28,6 +29,7 @@ def addLayer(inputs, in_size, out_size, activation=None):
     return outputs
 
 
+''' Compute the accuracy '''
 def computeAccruracy(sess, prediction, xs, ys, v_xs, v_ys):
     # Prediction
     y_pre = sess.run(prediction, feed_dict={

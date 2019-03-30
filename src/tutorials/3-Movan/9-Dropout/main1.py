@@ -6,6 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelBinarizer
 
 
+''' Add layer '''
 def addLayer(inputs, in_size, out_size, name, activation=None):
     # Define Weights and biases and add the name for TensorBoard
     with tf.name_scope(name):

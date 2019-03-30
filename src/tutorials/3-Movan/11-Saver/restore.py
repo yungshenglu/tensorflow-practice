@@ -10,7 +10,7 @@ tf.logging.set_verbosity(tf.logging.ERROR)
 
 def main():
     # Re-define the same dtype and shape for your variables
-    weights = tf.Variable(np.arange(6).reshape((2, 3)), dtype=tf.float32, name='weights')
+    Weights = tf.Variable(np.arange(6).reshape((2, 3)), dtype=tf.float32, name='Weights')
     biases = tf.Variable(np.arange(3).reshape((1, 3)), dtype=tf.float32, name='biases')
 
     # No need the step of global_variables_initializer()!
@@ -24,8 +24,8 @@ def main():
         saver.restore(sess, restore_path)
         print('[INFO] Restore from the file: ', restore_path)
 
-        # Show the variables of weights and biases
-        print('weights:\n', sess.run(weights))
+        # Show the variables of Weights and biases
+        print('Weights:\n', sess.run(Weights))
         print('biases:\n', sess.run(biases))
 
 

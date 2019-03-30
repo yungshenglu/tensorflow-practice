@@ -4,6 +4,7 @@ import tensorflow as tf
 import numpy as np
 
 
+''' Add layer '''
 def addLayer(inputs, in_size, out_size, activation=None):
     # Define Weights and biases
     Weights = tf.Variable(tf.random_normal([in_size, out_size]))
