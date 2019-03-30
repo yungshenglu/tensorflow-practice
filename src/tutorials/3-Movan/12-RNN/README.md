@@ -8,6 +8,9 @@ This practice is refer to the following resources credited to [Morvan](https://g
 * [莫烦PYTHON - TensorFlow: RNN LSTM (回归例子)](https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/5-09-RNN3/)
 * [莫烦PYTHON - TensorFlow: RNN LSTM (回归例子可视化)](https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/5-10-RNN4/)
 
+For more detail about CNN, you can watch the following video on YouTube.
+[![](http://img.youtube.com/vi/jajksuQW4mc/0.jpg)](https://www.youtube.com/watch?v=jajksuQW4mc)
+
 ---
 ## Execution
 
