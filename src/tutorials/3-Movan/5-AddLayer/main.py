@@ -9,7 +9,7 @@ def addLayer(inputs, in_size, out_size, activation=None):
     Weights = tf.Variable(tf.random_normal([in_size, out_size]))
     biases = tf.Variable(tf.zeros([1, out_size]) + 0.1)
     
-    # Define training function
+    # Define the training function
     y = tf.add(tf.matmul(inputs, Weights), biases)
     
     # Activation function
@@ -27,14 +27,16 @@ def main():
     noise = np.random.normal(0, 0.05, x.shape)
     y = np.square(x) - 0.5 + noise
 
+    ''' Create TensorFlow model '''
+    # Define the placeholder for inputs
     xs = tf.placeholder(tf.float32, [None, 1])
     ys = tf.placeholder(tf.float32, [None, 1])
 
-    ''' Create TensorFlow model '''
+    # Add layer
     layer1 = addLayer(xs, 1, 10, activation=tf.nn.relu)
     prediction = addLayer(layer1, 10, 1, activation=None)
 
-    # Define loss function and optimizer
+    # Define the loss function and the optimizer
     loss = tf.reduce_mean(tf.reduce_sum(tf.square(ys - prediction), reduction_indices=[1]))
     optimizer = tf.train.GradientDescentOptimizer(0.1)
     train = optimizer.minimize(loss)
@@ -53,7 +55,7 @@ def main():
                 ys: y
             })
             if step % 50 == 0:
-                print(step, sess.run(loss, feed_dict={
+                print('Step %3d' % step, sess.run(loss, feed_dict={
                     xs: x,
                     ys: y
                 }))

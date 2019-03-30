@@ -2,11 +2,14 @@
 
 import tensorflow as tf
 
+
 def main():
     ''' Create TensorFlow model '''
+    # Define the placeholder for inputs
     input1 = tf.placeholder(tf.float32)
     input2 = tf.placeholder(tf.float32)
 
+    # Define the training function
     output = tf.multiply(input1, input2)
 
     ''' Start training '''

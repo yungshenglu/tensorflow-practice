@@ -10,19 +10,20 @@ This practice is refer to [莫烦PYTHON - TensorFlow: Tensorboard 可视化好�
     # Make sure your current directory is in this folder
     $ python3 main.py
     ```
-2. If succeed, you will get the following result (the result is not unique)
+2. If succeed, you can check whether the file is generated in `logs/`
     ```bash
     # Make sure your current directory is in this folder
     $ ls ./logs/
     events.out.tfevents.1553870885.yungshenglu
+    # The above filename is for example and won't be same with yours!
     ```
 3. Run the log with TensorBoard
     ```bash
     $ tensorboard --logdir='./logs/'
     TensorBoard 1.13.0 at http://yungshenglu:6006 (Press CTRL+C to quit)
-    # The above link is just an example, plese use your link!
+    # The above link is just an example, please use your link!
     ```
-4. Open the browser and navigate to the website show in your terminal (`http://0.0.0.0:6006`)
+4. Open the browser and navigate to the website show in your terminal (`http://0.0.0.0:6006`) (the result is not unique)
     ![](res/tensorboard-demo.png)
 
 ---

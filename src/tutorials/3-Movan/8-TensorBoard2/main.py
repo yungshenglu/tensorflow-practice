@@ -16,7 +16,7 @@ def addLayer(inputs, in_size, out_size, name, activation=None):
             biases = tf.Variable(tf.zeros([1, out_size]) + 0.1, name='b')
             tf.summary.histogram(layer_name + '/biases', biases)
         
-        # Define training function and add the name for TensorBoard
+        # Define the training function and add the name for TensorBoard
         with tf.name_scope('y'):
             y = tf.add(tf.matmul(inputs, Weights), biases)
         
@@ -36,16 +36,17 @@ def main():
     noise = np.random.normal(0, 0.05, x.shape)
     y = np.square(x) - 0.5 + noise
 
-    # Add name for TensorBoard
+    ''' Create TensorFlow model '''
+     # Add the name of the placeholder for TensorBoard
     with tf.name_scope('inputs'):
         xs = tf.placeholder(tf.float32, [None, 1], name='x_input')
         ys = tf.placeholder(tf.float32, [None, 1], name='y_input')
-
-    ''' Create TensorFlow model '''
+    
+    # Add layer
     layer1 = addLayer(xs, 1, 10, name=1, activation=tf.nn.relu)
     prediction = addLayer(layer1, 10, 1, name=2, activation=None)
 
-    # Define loss function and optimizer
+    # Define the loss function and the optimizer
     with tf.name_scope('loss'):
         loss = tf.reduce_mean(tf.reduce_sum(tf.square(ys - prediction), reduction_indices=[1]))
         tf.summary.scalar('loss', loss)
