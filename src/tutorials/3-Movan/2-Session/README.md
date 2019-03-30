@@ -1,6 +1,7 @@
 # Practice 2 - TensorFlow Session
 
-This practice is refer to [莫烦PYTHON - TensorFlow: Session 会话控制](https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/2-3-session/). Credits to [Morvan](https://github.com/MorvanZhou).
+This practice is refer to the following resources credited to [Morvan](https://github.com/MorvanZhou).
+* [莫烦PYTHON - TensorFlow: Session 会话控制](https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/2-3-session/)
 
 ---
 ## Execution

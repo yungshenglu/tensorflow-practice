@@ -1,6 +1,11 @@
 # Practice 1 - Getting Start
 
-This practice is refer to [莫烦PYTHON - TensorFlow: 例子2](https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/2-2-example2/). Credits to [Morvan](https://github.com/MorvanZhou).
+This practice is refer to the following resources credited to [Morvan](https://github.com/MorvanZhou).
+* [莫烦PYTHON - TensorFlow: 为什么选 Tensorflow?](https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/1-1-why/)
+* [莫烦PYTHON - TensorFlow: Tensorflow 安装](https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/1-2-install/)
+* [莫烦PYTHON - TensorFlow: 神经网络在干嘛](https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/1-3-what-does-NN-do/)
+* [莫烦PYTHON - TensorFlow: 处理结构](https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/2-1-structure/)
+* [莫烦PYTHON - TensorFlow: 例子2](https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/2-2-example2/)
 
 ---
 ## Execution

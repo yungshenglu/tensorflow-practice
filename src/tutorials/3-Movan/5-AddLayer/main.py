@@ -55,7 +55,7 @@ def main():
                 ys: y
             })
             if step % 50 == 0:
-                print('Step %3d' % step, sess.run(loss, feed_dict={
+                print('Step %3d:' % step, sess.run(loss, feed_dict={
                     xs: x,
                     ys: y
                 }))

@@ -1,6 +1,7 @@
 # Practice 3 - TensroFlow Variable
 
-This practice is refer to [莫烦PYTHON - TensorFlow: Variable 变量](https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/2-4-variable/). Credits to [Morvan](https://github.com/MorvanZhou).
+This practice is refer to the following resources credited to [Morvan](https://github.com/MorvanZhou).
+* [莫烦PYTHON - TensorFlow: Variable 变量](https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/2-4-variable/)
 
 ---
 ## Execution

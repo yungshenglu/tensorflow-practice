@@ -6,9 +6,10 @@ import tensorflow as tf
 # Only show error message
 tf.logging.set_verbosity(tf.logging.ERROR)
 
-# Load data from TensorFlow examples
+# Load MNIST datasets from TensorFlow examples
 from tensorflow.examples.tutorials.mnist import input_data
 mnist = input_data.read_data_sets('MNIST_data', one_hot=True)
+
 
 def addLayer(inputs, in_size, out_size, activation=None):
     # Define Weights and biases
@@ -74,7 +75,7 @@ def main():
 
             # Print the accuracy for every 50 times
             if step % 50 == 0:
-                print('Step %3d:' % step, computeAccruracy(sess, prediction, xs, ys, mnist.test.images, mnist.test.labels))
+                print('Step %3d' % step, computeAccruracy(sess, prediction, xs, ys, mnist.test.images, mnist.test.labels))
 
         
 

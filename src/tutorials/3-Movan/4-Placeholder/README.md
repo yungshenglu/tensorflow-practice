@@ -1,6 +1,7 @@
 # Practice 4 - TensorFlow Placeholder
 
-This practice is refer to [莫烦PYTHON - TensorFlow: Placeholder 传入值](https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/2-5-placeholde/). Credits to [Morvan](https://github.com/MorvanZhou).
+This practice is refer to the following resources credited to [Morvan](https://github.com/MorvanZhou).
+* [莫烦PYTHON - TensorFlow: Placeholder 传入值](https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/2-5-placeholde/)
 
 ---
 ## Execution

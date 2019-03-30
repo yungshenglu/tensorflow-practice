@@ -18,6 +18,7 @@ This directory is used for learning TensorFlow.
     8. [Using TensorBoard 2](3-Movan/8-TensorBoard2)
     9. [Classification with TensorFlow](3-Movan/9-Classification)
     10. [Solving Overfitting via Dropout](3-Movan/10-Dropout)
+    11. [CNN in TensorFlow](3-Movan/11-CNN)
 
 (To be updated.)
 
