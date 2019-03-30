@@ -2,6 +2,7 @@
 
 import tensorflow as tf
 
+
 # Only show error message
 tf.logging.set_verbosity(tf.logging.ERROR)
 
