@@ -20,6 +20,7 @@ This practice is refer to [莫烦PYTHON - TensorFlow: Tensorboard 可视化好�
     ```bash
     $ tensorboard --logdir='./logs/'
     TensorBoard 1.13.0 at http://yungshenglu:6006 (Press CTRL+C to quit)
+    # The above link is just an example, plese use your link!
     ```
 4. Open the browser and navigate to the website show in your terminal (`http://0.0.0.0:6006`)
     ![](res/tensorboard-demo.png)
