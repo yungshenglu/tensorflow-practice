@@ -7,7 +7,7 @@ This practice is refer to the following resources credited to [Morvan](https://g
 * [莫烦PYTHON - TensorFlow: CNN 卷积神经网络 3](https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/5-05-CNN3/)
 
 For more detail about CNN, you can watch the following video on YouTube.
-* CNN (Convolutional Neural Network)
+* [CNN (Convolutional Neural Network)](http://img.youtube.com/vi/jajksuQW4mc/0.jpg)
 
     [![CNN (Convolutional Neural Network)](http://img.youtube.com/vi/jajksuQW4mc/0.jpg)](https://www.youtube.com/watch?v=jajksuQW4mc)
 

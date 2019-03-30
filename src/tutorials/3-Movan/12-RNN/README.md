@@ -9,11 +9,11 @@ This practice is refer to the following resources credited to [Morvan](https://g
 * [莫烦PYTHON - TensorFlow: RNN LSTM (回归例子可视化)](https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/5-10-RNN4/)
 
 For more detail about RNN and LSTM, you can watch the following video on YouTube.
-* Recurrent Neural Network (RNN)
+* [Recurrent Neural Network (RNN)](http://img.youtube.com/vi/H3ciJF2eCJI/0.jpg)
 
     [![Recurrent Neural Network (RNN)](http://img.youtube.com/vi/H3ciJF2eCJI/0.jpg)](https://www.youtube.com/watch?v=H3ciJF2eCJI)
 
-* Long-Short Term Memory (LSTM)
+* [Long-Short Term Memory (LSTM)](http://img.youtube.com/vi/V3D5ovKE9Og/0.jpg)
 
     [![Long-Short Term Memory (LSTM)](http://img.youtube.com/vi/V3D5ovKE9Og/0.jpg)](https://www.youtube.com/watch?v=V3D5ovKE9Og)
 
