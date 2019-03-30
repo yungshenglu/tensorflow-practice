@@ -1,6 +1,6 @@
 # Practice 8 - Using TensorBoard 2
 
-This practice is refer to [莫烦PYTHON - TensorFlow: Tensorboard 可视化好帮手 1](https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/4-1-tensorboard1/). Credits to [Morvan](https://github.com/MorvanZhou).
+This practice is refer to [莫烦PYTHON - TensorFlow: Tensorboard 可视化好帮手 2](https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/4-2-tensorboard2/). Credits to [Morvan](https://github.com/MorvanZhou).
 
 ---
 ## Execution
