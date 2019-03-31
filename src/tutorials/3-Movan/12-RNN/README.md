@@ -95,7 +95,7 @@ For more detail about RNN and LSTM, you can watch the following video on YouTube
     ```bash
     # Make sure your current directory is in this folder
     $ ls ./logs/
-    events.out.tfevents.1553934676.yungshenglu
+    events.out.tfevents.1554040135.yungshenglu
     # The above filename is for example and won't be same with yours!
     ```
 4. Run the log with TensorBoard
