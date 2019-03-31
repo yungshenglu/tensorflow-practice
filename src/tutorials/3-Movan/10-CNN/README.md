@@ -32,26 +32,26 @@ For more detail about CNN, you can watch the following video on YouTube.
     Extracting MNIST_data/t10k-labels-idx1-ubyte.gz
 
     # The probability of prediction (the result is not unique)
-    ('Step   0', 0.055)
-    ('Step  50', 0.72)
-    ('Step 100', 0.832)
-    ('Step 150', 0.871)
-    ('Step 200', 0.89)
-    ('Step 250', 0.914)
-    ('Step 300', 0.917)
-    ('Step 350', 0.924)
-    ('Step 400', 0.931)
-    ('Step 450', 0.938)
-    ('Step 500', 0.939)
-    ('Step 550', 0.937)
-    ('Step 600', 0.948)
-    ('Step 650', 0.946)
-    ('Step 700', 0.95)
-    ('Step 750', 0.951)
-    ('Step 800', 0.956)
-    ('Step 850', 0.958)
-    ('Step 900', 0.958)
-    ('Step 950', 0.961)
+    Step   0: 0.113
+    Step  50: 0.808
+    Step 100: 0.866
+    Step 150: 0.9
+    Step 200: 0.909
+    Step 250: 0.927
+    Step 300: 0.936
+    Step 350: 0.94
+    Step 400: 0.95
+    Step 450: 0.957
+    Step 500: 0.957
+    Step 550: 0.963
+    Step 600: 0.958
+    Step 650: 0.965
+    Step 700: 0.961
+    Step 750: 0.97
+    Step 800: 0.964
+    Step 850: 0.965
+    Step 900: 0.973
+    Step 950: 0.974
     ```
 
 ---

@@ -14,13 +14,13 @@ mnist = input_data.read_data_sets('MNIST_data', one_hot=True)
 ''' Compute the accuracy '''
 def computeAccruracy(sess, prediction, keep_prob, xs, ys, v_xs, v_ys):
     # Prediction
-    y_pre = sess.run(prediction, feed_dict={
+    y_pred = sess.run(prediction, feed_dict={
         xs: v_xs,
         keep_prob: 1
     })
 
     # Check whether the prediction is correct
-    correct = tf.equal(tf.argmax(y_pre, 1), tf.argmax(v_ys, 1))
+    correct = tf.equal(tf.argmax(y_pred, 1), tf.argmax(v_ys, 1))
 
     # Comput the accuracy
     accuracy = tf.reduce_mean(tf.cast(correct, tf.float32))
@@ -86,7 +86,7 @@ def main():
     # Add fc1 layer
     w_fc1 = weightVar([7*7*64, 1024])
     b_fc1 = biasVar([1024])
-    h_pool2_flat = tf.reshape(h_pool2, [-1, 7*7*64])                    # [n_sample, 7, 7, 64] >> [n_sample, 7*7*64]
+    h_pool2_flat = tf.reshape(h_pool2, [-1, 7*7*64])                    # [n_sample, 7, 7, 64] --> [n_sample, 7*7*64]
     h_fc1 = tf.nn.relu(tf.add(tf.matmul(h_pool2_flat, w_fc1), b_fc1))
     h_fc1_drop = tf.nn.dropout(h_fc1, keep_prob)
 
@@ -95,7 +95,7 @@ def main():
     b_fc2 = biasVar([10])
     prediction = tf.nn.softmax(tf.add(tf.matmul(h_fc1_drop, w_fc2), b_fc2))
 
-    # Define the loss function (cross entropy) and the optimizer
+    # Define the loss function and the optimizer
     with tf.name_scope('loss'):
         loss = tf.reduce_mean(-tf.reduce_sum(ys * tf.log(prediction), reduction_indices=[1]))
         tf.summary.scalar('loss', loss)
@@ -119,7 +119,9 @@ def main():
 
             # Print the accuracy for every 50 times
             if step % 50 == 0:
-                print('Step %3d' % step, computeAccruracy(sess, prediction, keep_prob, xs, ys, mnist.test.images[: 1000], mnist.test.labels[: 1000]))
+                test_data = mnist.test.images[: 1000]
+                test_label = mnist.test.labels[: 1000]
+                print('Step %3d:' % step, computeAccruracy(sess, prediction, keep_prob, xs, ys, test_data, test_label))
 
 
 ''' ENTRY POINT '''

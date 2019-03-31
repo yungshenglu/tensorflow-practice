@@ -20,10 +20,12 @@ For more detail about RNN and LSTM, you can watch the following video on YouTube
 ---
 ## Execution
 
-1. Run `main.py`
+### Example 1: Classification
+
+1. Run `main1.py`
     ```bash
     # Make sure your current directory is in this folder
-    $ python3 main.py
+    $ python3 main1.py
     ```
 2. If succeed, you will get the following result (take few minutes)
     ```bash
@@ -38,27 +40,74 @@ For more detail about RNN and LSTM, you can watch the following video on YouTube
     Extracting MNIST_data/t10k-labels-idx1-ubyte.gz
 
     # The probability of prediction (the result is not unique)
-    ('Step   0', 0.055)
-    ('Step  50', 0.72)
-    ('Step 100', 0.832)
-    ('Step 150', 0.871)
-    ('Step 200', 0.89)
-    ('Step 250', 0.914)
-    ('Step 300', 0.917)
-    ('Step 350', 0.924)
-    ('Step 400', 0.931)
-    ('Step 450', 0.938)
-    ('Step 500', 0.939)
-    ('Step 550', 0.937)
-    ('Step 600', 0.948)
-    ('Step 650', 0.946)
-    ('Step 700', 0.95)
-    ('Step 750', 0.951)
-    ('Step 800', 0.956)
-    ('Step 850', 0.958)
-    ('Step 900', 0.958)
-    ('Step 950', 0.961)
+    Step   0: 0.109375
+    Step  50: 0.734375
+    Step 100: 0.84375
+    Step 150: 0.9140625
+    Step 200: 0.921875
+    Step 250: 0.8984375
+    Step 300: 0.921875
+    Step 350: 0.96875
+    Step 400: 0.96875
+    Step 450: 0.953125
+    Step 500: 0.96875
+    Step 550: 0.9296875
+    Step 600: 0.96875
+    Step 650: 0.9453125
+    Step 700: 0.96875
+    Step 750: 0.9609375
     ```
+
+### Example 2: Regresssion 
+
+> **NOTICE:** For this example, you can refer to this [material](https://r2rt.com/styles-of-truncated-backpropagation.html)
+
+1. Run `main2.py`
+    ```bash
+    # Make sure your current directory is in this folder
+    $ python3 main2.py
+    ```
+2. If succeed, you will get the following result (take few minutes)
+    ```bash
+    # If you run the program first time, you may download the datasets first (optional)
+    Downloading data from https://s3.amazonaws.com/img-datasets/mnist.npz
+    11493376/11490434 [==============================] - 12s 1us/step
+    
+    # If you have already run the pregram before, you may see the following information (optional)
+    Extracting MNIST_data/train-images-idx3-ubyte.gz
+    Extracting MNIST_data/train-labels-idx1-ubyte.gz
+    Extracting MNIST_data/t10k-images-idx3-ubyte.gz
+    Extracting MNIST_data/t10k-labels-idx1-ubyte.gz
+
+    # The loss rate of prediction (the result is not unique)
+    Step   0, Loss: 19.687599
+    Step  20, Loss: 8.454300
+    Step  40, Loss: 1.394400
+    Step  60, Loss: 0.342600
+    Step  80, Loss: 1.573500
+    Step 100, Loss: 0.194600
+    Step 120, Loss: 0.129400
+    Step 140, Loss: 0.298300
+    Step 160, Loss: 0.117500
+    Step 180, Loss: 0.036900
+    ```
+3. You can check whether the files is generated in `logs/`
+    ```bash
+    # Make sure your current directory is in this folder
+    $ ls ./logs/
+    events.out.tfevents.1553934676.yungshenglu
+    # The above filename is for example and won't be same with yours!
+    ```
+4. Run the log with TensorBoard
+    ```bash
+    $ tensorboard --logdir='./logs/'
+    TensorBoard 1.13.0 at http://yungshenglu:6006 (Press CTRL+C to quit)
+    # The above link is just an example. Please use your link!
+    ```
+5. Open the browser and navigate to the website show in your terminal (`http://0.0.0.0:6006`) (the result is not unique)
+    ![](../../../../res/img/movan/12-tensorboard.png)
+6. If succeed, you will get the following result (the result is not unique)
+    ![](../../../../res/img/movan/12-visualize.gif)
 
 ---
 ## References

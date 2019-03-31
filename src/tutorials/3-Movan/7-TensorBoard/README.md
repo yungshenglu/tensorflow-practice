@@ -26,7 +26,7 @@ This practice is refer to the following resources credited to [Morvan](https://g
     # The above link is just an example. Please use your link!
     ```
 4. Open the browser and navigate to the website show in your terminal (`http://0.0.0.0:6006`) (the result is not unique)
-    ![](../../../../res/img/movan/8-tensorboard.png)
+    ![](../../../../res/img/movan/7-tensorboard.png)
 
 ---
 ## References

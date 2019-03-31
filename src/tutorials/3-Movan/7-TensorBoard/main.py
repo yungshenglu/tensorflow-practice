@@ -69,6 +69,7 @@ def main():
                 xs: x,
                 ys: y
             })
+            
             # Write into summary for every 50 times
             if step % 50 == 0:
                 result = sess.run(merged, feed_dict={
