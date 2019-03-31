@@ -80,16 +80,16 @@ For more detail about RNN and LSTM, you can watch the following video on YouTube
     Extracting MNIST_data/t10k-labels-idx1-ubyte.gz
 
     # The loss rate of prediction (the result is not unique)
-    Step   0, Loss: 19.687599
-    Step  20, Loss: 8.454300
-    Step  40, Loss: 1.394400
-    Step  60, Loss: 0.342600
-    Step  80, Loss: 1.573500
-    Step 100, Loss: 0.194600
-    Step 120, Loss: 0.129400
-    Step 140, Loss: 0.298300
-    Step 160, Loss: 0.117500
-    Step 180, Loss: 0.036900
+    Step   0: Loss = 19.687599
+    Step  20: Loss = 8.454300
+    Step  40: Loss = 1.394400
+    Step  60: Loss = 0.342600
+    Step  80: Loss = 1.573500
+    Step 100: Loss = 0.194600
+    Step 120: Loss = 0.129400
+    Step 140: Loss = 0.298300
+    Step 160: Loss = 0.117500
+    Step 180: Loss = 0.036900
     ```
 3. You can check whether the files is generated in `logs/`
     ```bash
@@ -106,7 +106,7 @@ For more detail about RNN and LSTM, you can watch the following video on YouTube
     ```
 5. Open the browser and navigate to the website show in your terminal (`http://0.0.0.0:6006`) (the result is not unique)
     ![](../../../../res/img/movan/12-tensorboard.png)
-6. Besides, you will get the following result (the result is not unique)
+6. You will get the following result (the result is not unique)
     ![](../../../../res/img/movan/12-visualize.gif)
 
 ---

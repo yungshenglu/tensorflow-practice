@@ -194,7 +194,7 @@ def main():
 
             # Print the accuracy for every 20 times
             if step % 20 == 0:
-                print('Step %3d, Loss: %f' % (step, round(loss, 4)))
+                print('Step %3d: Loss = %f' % (step, round(loss, 4)))
                 result = sess.run(merged, feed_dict=feed_dict)
                 writer.add_summary(result, step)
 
