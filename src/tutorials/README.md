@@ -21,6 +21,10 @@ This directory is used for learning TensorFlow.
     11. [TensorFlow Saver](3-Movan/11-Saver)
     12. [RNN in TensorFlow](3-Movan/12-RNN)
     13. [Autoencoder in TensorFlow](3-Movan/13-Autoencoder)
+    14. TensorFlow Scope
+    15. Batch Normalization in TensorFlow
+    16. Visualize Gradient Descent in TensorFlow
+    17. Transfer Learning in TensorFlow
 
 (To be updated.)
 

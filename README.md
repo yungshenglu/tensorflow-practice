@@ -4,7 +4,7 @@
 
 This repository is used to practice some basic operations in **TensroFlow** and the original repository is [here](https://github.com/tensorflow/tensorflow).
 
-> **NOTICE:** This repository is based on **Ubuntu Linux 16.04 LTS**
+> **NOTICE:** This repository is based on Ubuntu Linux 16.04 LTS
 
 ---
 ## Contents
