@@ -106,7 +106,7 @@ For more detail about RNN and LSTM, you can watch the following video on YouTube
     ```
 5. Open the browser and navigate to the website show in your terminal (`http://0.0.0.0:6006`) (the result is not unique)
     ![](../../../../res/img/movan/12-tensorboard.png)
-6. If succeed, you will get the following result (the result is not unique)
+6. Besides, you will get the following result (the result is not unique)
     ![](../../../../res/img/movan/12-visualize.gif)
 
 ---
