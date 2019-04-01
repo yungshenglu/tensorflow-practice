@@ -3,9 +3,9 @@
 We are going to install Tensorflow in this tutorial.
 
 * **NOTICE:** TensorFlow is tested and supported on the following 64-bit systems:
-    * Ubuntu 16.04 or later
+    * Ubuntu Linux 16.04 LTS or later
     * Windows 7 or later
-    * macOS 10.12.6 (Sierra) or later (no GPU support)
+    * MacOS 10.12.6 (Sierra) or later (no GPU support)
     * Raspbian 9.0 or later
 
 ---
@@ -49,20 +49,23 @@ We are going to install Tensorflow in this tutorial.
     (venv) $ pip list
     ```
 5. Install TensorFlow with `pip`
-     ```bash
-     # Current release for GPU-only (Python 2.7)
-     (venv) $ pip install --upgrade tensorflow
-     # GPU package for CUDA-enabled GPU cards (Python 2.7)
-     (venv) $ pip install --upgrade tensorflow-gpu
-     ```
+    ```bash
+    # Current release for GPU-only (Python 2.7)
+    (venv) $ pip install --upgrade tensorflow
+    # GPU package for CUDA-enabled GPU cards (Python 2.7)
+    (venv) $ pip install --upgrade tensorflow-gpu
+    ```
 
 ---
 ## 1.2 Getting started!
 
-1. Run the example program `./src/hello.py`
+1. Run the example program `hello.py`
     ```bash
-    # Make sure your current directory is "./src/"
-    (venv) $ python hello.py
+    # Make sure your current directory is in this folder
+    $ python3 hello.py
+    ```
+2. If succeed, you may get the following result
+    ```bash
     b'Hello world, TensorFlow!'
     ```
 
