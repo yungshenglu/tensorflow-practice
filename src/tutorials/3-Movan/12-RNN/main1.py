@@ -77,12 +77,12 @@ def main():
 
     # Define Weights and biases for each cell
     Weights = {
-        'in': tf.Variable(tf.random_normal([INPUT_SIZE, CELL_SIZE])),    # size = 28*128
-        'out': tf.Variable(tf.random_normal([CELL_SIZE, OUTPUT_SIZE]))   # size = 128*10
+        'in': tf.Variable(tf.random_normal([INPUT_SIZE, CELL_SIZE])),       # size = 28*128
+        'out': tf.Variable(tf.random_normal([CELL_SIZE, OUTPUT_SIZE]))      # size = 128*10
     }
     biases = {
-        'in': tf.Variable(tf.constant(0.1, shape=[CELL_SIZE])),        # size = 128*1
-        'out': tf.Variable(tf.constant(0.1, shape=[OUTPUT_SIZE]))             # size = 10*1
+        'in': tf.Variable(tf.constant(0.1, shape=[CELL_SIZE])),             # size = 128*1
+        'out': tf.Variable(tf.constant(0.1, shape=[OUTPUT_SIZE]))           # size = 10*1
     }
 
     # Define LSTM RNN

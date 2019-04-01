@@ -28,7 +28,7 @@ class LSTMRNN(object):
         self.learning_rate = learning_rate
 
         ''' Create TensorFlow model '''
-        # Define the placeholder for inputs 
+        # Define the placeholder for inputs
         with tf.name_scope('inputs'):
             self.xs = tf.placeholder(tf.float32, [None, self.time_step, self.input_size], name='xs')
             self.ys = tf.placeholder(tf.float32, [None, self.time_step, self.output_size], name='ys')
@@ -56,18 +56,18 @@ class LSTMRNN(object):
 
     # Create a hidden layer for input to cell
     def addInputLayer(self):
-        # xs_in (50 batch * steps, 1 inputs)
+        # xs_in (50 batch * 20 steps, 1 inputs)
         xs_in = tf.reshape(self.xs, [-1, self.input_size], name='2_2D')
 
         # Define Weights and biases for each cell
         Weights_in = self.weightVar([self.input_size, self.cell_size])
         biases_in = self.biasVar([self.cell_size])
 
-        # ys_in (50 batch * steps, 10 cell)
+        # ys_in (50 batch * 20 steps, 10 cell)
         with tf.name_scope('ys_in'):
             ys_in = tf.add(tf.matmul(xs_in, Weights_in), biases_in)
 
-        # ys_in (50 batch, steps, 10 cell)
+        # ys_in (50 batch, 20 steps, 10 cell)
         self.ys_in = tf.reshape(ys_in, [-1, self.time_step, self.cell_size], name='2_3D')
 
 
@@ -93,25 +93,25 @@ class LSTMRNN(object):
         Weights_out = self.weightVar([self.cell_size, self.output_size])
         biases_out = self.biasVar([self.output_size])
 
-         # ys_out (50 batch * steps, 1 outputs)
+        # ys_out (50 batch * steps, 1 outputs)
         with tf.name_scope('ys_out'):
             self.pred = tf.add(tf.matmul(xs_out, Weights_out), biases_out)
     
 
     def computeLoss(self):
         # Compute the loss rate for each step
-        losses = tf.contrib.legacy_seq2seq.sequence_loss_by_example(
+        sum_loss = tf.contrib.legacy_seq2seq.sequence_loss_by_example(
             [tf.reshape(self.pred, [-1], name='reshape_prediction')],
             [tf.reshape(self.ys, [-1], name='reshape_target')],
             [tf.ones([self.batch_size * self.time_step], dtype=tf.float32)],
             average_across_timesteps=True,
             softmax_loss_function=self.meanSquareError,
-            name='losses'
+            name='sum_loss'
         )
 
         # Compute the average loss
         with tf.name_scope('average_loss'):
-            self.loss = tf.div(tf.reduce_sum(losses, name='sum_loss'), self.batch_size, name='average_loss')
+            self.loss = tf.div(tf.reduce_sum(sum_loss, name='sum_loss'), self.batch_size, name='average_loss')
             tf.summary.scalar('loss', self.loss)
 
 
@@ -132,6 +132,7 @@ class LSTMRNN(object):
     def meanSquareError(labels, logits):
         return tf.square(tf.subtract(labels, logits))
 
+
 def getBatch():
     global BATCH_START, TIME_STEP
 
@@ -142,7 +143,6 @@ def getBatch():
     BATCH_START += TIME_STEP
 
     return [seq[:, :, np.newaxis], res[:, :, np.newaxis], xs_reshape]
-
 
 
 def main():
@@ -162,8 +162,8 @@ def main():
         plt.ion()
         plt.show()
 
-        # Train 1000 times
-        for step in range(200):
+        # Train 200 times
+        for step in range(TRAINING_STEP):
             seq, res, xs = getBatch()
             if step == 0:
                 # No need to define the initial state!
@@ -193,7 +193,7 @@ def main():
             plt.pause(0.3)
 
             # Print the accuracy for every 20 times
-            if step % 20 == 0:
+            if step % TIME_STEP == 0:
                 print('Step %3d: Loss = %f' % (step, round(loss, 4)))
                 result = sess.run(merged, feed_dict=feed_dict)
                 writer.add_summary(result, step)
