@@ -1,4 +1,4 @@
-# Practice 14 - Batch Normalization in TensorFlow
+# Practice 15 - Batch Normalization in TensorFlow
 
 This practice is refer to the following resources credited to [Morvan](https://github.com/MorvanZhou).
 * [莫烦PYTHON - TensorFlow: 什么是批标准化 (Batch Normalization)](https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/5-13-A-batch-normalization/)
@@ -10,16 +10,16 @@ This practice is refer to the following resources credited to [Morvan](https://g
 1. Run `main.py` with a argument
     ```bash
     # Make sure your current directory is in this folder
-    # Training with "ReLU" as the activation function
+    # Train with "ReLU" as the activation function
     $ python3 main.py relu
-    # Training with "tanh" as the activation function
+    # Train with "tanh" as the activation function
     $ python3 main.py tanh
     ```
 2. If succeed, you will get the following result
     ```bash
-    # Training with "ReLU" as the activation function
+    # Train with "ReLU" as the activation function
     [INFO] Using ReLU as activation function
-    # Training with "tanh" as the activation function
+    # Train with "tanh" as the activation function
     [INFO] Using tanh as activation function
     ```
 3. Besides, you will see the following figures

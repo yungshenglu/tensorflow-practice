@@ -112,13 +112,6 @@ def plotHistogram(axs, layer_input, layer_input_BN, layers, layers_BN, epoch):
 
 def main(arg):
 	''' Create data '''
-	# Set activation function
-	global ACTIVATION
-	if arg == 'relu':
-		ACTIVATION = tf.nn.relu
-	elif arg == 'tanh':
-		ACTIVATION = tf.nn.tanh
-
 	# Training data
 	fixSeed(1)
 	x = np.linspace(-7, 10, 2000)[:, np.newaxis]
@@ -141,6 +134,13 @@ def main(arg):
 	xs = tf.placeholder(tf.float32, [None, 1])
 	ys = tf.placeholder(tf.float32, [None, 1])
 	isTrain = tf.placeholder(tf.bool, None)
+
+	# Set activation function
+	global ACTIVATION
+	if arg == 'relu':
+		ACTIVATION = tf.nn.relu
+	elif arg == 'tanh':
+		ACTIVATION = tf.nn.tanh
 
 	# Build model with and without BN
 	models = [NNmodel(xs=xs, ys=ys, isTrain=isTrain, batchNorm=False), NNmodel(xs=xs, ys=ys, isTrain=isTrain, batchNorm=True)]

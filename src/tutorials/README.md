@@ -23,7 +23,7 @@ This directory is used for learning TensorFlow.
     13. [Autoencoder in TensorFlow](3-Movan/13-Autoencoder)
     14. [TensorFlow Scope](3-Movan/14-Scope)
     15. [Batch Normalization in TensorFlow](3-Movan/15-BatchNormalization)
-    16. Visualize Gradient Descent in TensorFlow
+    16. [Visualize Gradient Descent in TensorFlow](3-Movan/16-VisualizeGD)
     17. Transfer Learning in TensorFlow
 
 (To be updated.)
