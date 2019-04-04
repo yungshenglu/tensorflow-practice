@@ -22,7 +22,7 @@ This directory is used for learning TensorFlow.
     12. [RNN in TensorFlow](3-Movan/12-RNN)
     13. [Autoencoder in TensorFlow](3-Movan/13-Autoencoder)
     14. [TensorFlow Scope](3-Movan/14-Scope)
-    15. Batch Normalization in TensorFlow
+    15. [Batch Normalization in TensorFlow](3-Movan/15-BatchNormalization)
     16. Visualize Gradient Descent in TensorFlow
     17. Transfer Learning in TensorFlow
 

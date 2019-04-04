@@ -42,12 +42,10 @@ def main():
     optimizer = tf.train.GradientDescentOptimizer(0.1)
     train = optimizer.minimize(loss)
 
-    # Initialize all variables in TensorFlow
-    init = tf.initialize_all_variables()
-
     ''' Start training '''
     with tf.Session() as sess:
-        sess.run(init)
+        # Initialize all variables in TensorFlow
+        sess.run(tf.global_variables_initializer())
         
         # Print the Weights and biases for every 50 steps
         for step in range(1000):
