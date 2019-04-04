@@ -37,6 +37,7 @@ This practice is refer to the following resources credited to [Morvan](https://g
     Weight =  1.2080404 bias =  2.4960968
     ```
 3. Besides, you will see the following figures
+
     | Function | Learning rate = 0.1 | Learning rate = 1.0 |
     |---|---|---|
     | Linear | ![](../../../../res/img/movan/16-input1_1.png) ![](../../../../res/img/movan/16-VisualizeGD1_1.png) | ![](../../../../res/img/movan/16-input1_2.png) ![](../../../../res/img/movan/16-VisualizeGD1_2.png) |
